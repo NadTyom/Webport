@@ -1,0 +1,50 @@
+.mobile-view-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-header {
+  background-color: crimson;
+  color: white;
+  padding: 5px;
+}
+.navbar-heade p svg {
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.mobile-nav {
+  height: auto;
+  width: 210px;
+  margin-top: 0px;
+  padding: 2px;
+  padding-bottom: 10px;
+  background-color: crimson;
+  z-index: 1;
+}
+
+.mobile-nav ul li {
+  margin-top: 20px;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mobile-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item-mobileview .active {
+  color: aqua;
+  background-color: chocolate;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+@media (min-width: 1000px) {
+  .mobile-view-navbar {
+    display: none;
+  }
+}

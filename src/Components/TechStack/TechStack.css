@@ -1,0 +1,55 @@
+.tech-stack-section {
+  margin-top: 60px;
+  height: auto;
+  margin-bottom: 50px;
+}
+.section-title h5 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.tech-content {
+  padding: 10px;
+  margin-top: 50px;
+  color: black;
+  text-align: center;
+  box-shadow: 29px 33px 9px 9px rgba(0, 0, 0, 0.1);
+}
+.tech-content p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.tech-content:hover {
+  background: -webkit-linear-gradient(90deg, #4791f1, #00c4e1, #41d617);
+  background: linear-gradient(90deg, #4791f1, #00c4e1, #41d617);
+  color: white;
+  transition-duration: 0.5s;
+  box-shadow: 16px 20px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.tech-content img {
+  width: 80px;
+  height: 80px;
+}
+
+.load-more-tech-stack {
+  background-color: tomato;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  display: table;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.load-more-tech-stack:hover {
+  background-color: aqua;
+  color: black;
+  width: 120px;
+  transition-duration: 0.5s;
+}
